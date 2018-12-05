@@ -1,0 +1,119 @@
+{
+  "name": "mixin-cli",
+  "description": "Command Line Tools to easy Mixin DApp Development",
+  "version": "0.1.0",
+  "author": "wangshijun <wangshijun2010@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/wangshijun/mixin-cli/issues",
+    "email": "wangshijun2010@gmail.com"
+  },
+  "contributors": [
+    "wangshijun <wangshijun2010@gmail.com>"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "debug": "^4.1.0",
+    "inquirer": "^6.2.0"
+  },
+  "ava": {
+    "failFast": true,
+    "verbose": true
+  },
+  "devDependencies": {
+    "auto-bind": "^1.1.0",
+    "ava": "^0.22.0",
+    "cross-env": "^5.0.5",
+    "debug": "^3.1.0",
+    "eslint": "^4.5.0",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.4",
+    "nyc": "^11.1.0",
+    "prettier": "^1.6.1",
+    "xo": "latest"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "homepage": "https://github.com/wangshijun/mixin-cli",
+  "keywords": [
+    "mixin",
+    "blockchain",
+    "lass",
+    "node.js",
+    "cli"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,mjs,ts,tsx,css,less,scss,json,graphql}": [
+      "prettier",
+      "git add"
+    ]
+  },
+  "bin": {
+    "ocap": "bin/mixin"
+  },
+  "main": "lib/index",
+  "nyc": {
+    "check-coverage": true,
+    "lines": 5,
+    "functions": 1,
+    "branches": 5,
+    "reporter": [
+      "lcov",
+      "html",
+      "text"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangshijun/mixin-cli"
+  },
+  "xo": {
+    "extends": "prettier",
+    "plugins": [
+      "prettier"
+    ],
+    "parserOptions": {
+      "sourceType": "script"
+    },
+    "rules": {
+      "unicorn/number-literal-case": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "printWidth": 120,
+          "tabWidth": 2,
+          "trailingComma": "es5",
+          "jsxBracketSameLine": true,
+          "semi": true,
+          "singleQuote": true,
+          "bracketSpacing": true
+        }
+      ],
+      "max-len": [
+        "error",
+        {
+          "code": 120,
+          "ignoreUrls": true
+        }
+      ],
+      "valid-jsdoc": "off",
+      "unicorn/prefer-add-event-listener": "off",
+      "promise/prefer-await-to-then": "off",
+      "capitalized-comments": "off",
+      "camelcase": "off",
+      "no-warning-comments": "off"
+    },
+    "space": true
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov",
+    "lint": "xo",
+    "precommit": "lint-staged && npm run test-coverage",
+    "test": "npm run lint && npm run test-coverage",
+    "test-coverage": "cross-env NODE_ENV=test nyc ava"
+  }
+}
