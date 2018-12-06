@@ -38,6 +38,20 @@
     imurmurhash "^0.1.4"
     slide "^1.1.5"
 
+"@babel/plugin-transform-regenerator@7.0.0", "@babel/plugin-transform-regenerator@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.0.0.tgz#5b41686b4ed40bef874d7ed6a84bdd849c13e0c1"
+  integrity sha512-sj2qzsEx8KDVv1QuJc/dEfilkg3RRPvPYx/VnKLtItVQRWt1Wqf5eVCOLZm29CiGFfYYsA3VPjfizTCV0S0Dlw==
+  dependencies:
+    regenerator-transform "^0.13.3"
+
+"@babel/runtime@^7.1.5":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
+  integrity sha512-oouEibCbHMVdZSDlJBO6bZmID/zA/G/Qx3H1d3rSNPTD+L8UNKvCat7aKWSJ74zYbm5zWGh0GQN0hKj8zYFTCg==
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@concordance/react@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@concordance/react/-/react-1.0.0.tgz#fcf3cad020e5121bfd1c61d05bc3516aac25f734"
@@ -163,6 +177,11 @@ aproba@^1.0.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/aproba/-/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
 
+arch@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/arch/-/arch-2.1.1.tgz#8f5c2731aa35a30929221bb0640eed65175ec84e"
+  integrity sha512-BLM56aPo9vLLFVa8+/+pJLnrZ7QGGTVHWsCwieAWT9o9K8UeGaQbzZbGoabWLOo2ksBCztoXdqBZBplqLDDCSg==
+
 archy@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/archy/-/archy-1.0.0.tgz#f9c8c13757cc1dd7bc379ac77b2c62a5c2868c40"
@@ -231,6 +250,20 @@ array-unique@^0.3.2:
 arrify@^1.0.0, arrify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
+
+asn1.js@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/asn1.js/-/asn1.js-5.0.1.tgz#7668b56416953f0ce3421adbb3893ace59c96f59"
+  integrity sha512-aO8EaEgbgqq77IEw+1jfx5c9zTbzvkfuRBuZsSsPnTHMkmd5AI4J6OtITLZFa381jReeaQL67J0GBTUu0+ZTVw==
+  dependencies:
+    bn.js "^4.0.0"
+    inherits "^2.0.1"
+    minimalistic-assert "^1.0.0"
+
+asn1@0.2.3:
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
+  integrity sha1-2sh4dxPJlmhJ/IGAd36+nB3fO4Y=
 
 assign-symbols@^1.0.0:
   version "1.0.0"
@@ -641,6 +674,11 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
+base64-js@^1.0.2:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/base64-js/-/base64-js-1.3.0.tgz#cab1e6118f051095e58b5281aea8c1cd22bfc0e3"
+  integrity sha512-ccav/yGvoa80BQDljCxsmmQ3Xvx60/UpBIij5QN21W3wBi/hhIC9OoO+KLpu9IJTS9j4DRVJ3aDDF9cMSoa2lw==
+
 base@^0.11.1:
   version "0.11.2"
   resolved "https://registry.yarnpkg.com/base/-/base-0.11.2.tgz#7bde5ced145b6d551a90db87f83c558b4eb48a8f"
@@ -660,6 +698,11 @@ binary-extensions@^1.0.0:
 bluebird@^3.0.0:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+
+bn.js@^4.0.0, bn.js@^4.4.0:
+  version "4.11.8"
+  resolved "https://registry.npmjs.org/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
+  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
 
 boxen@^1.2.1:
   version "1.3.0"
@@ -703,6 +746,11 @@ braces@^2.3.1:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
+brorand@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
+  integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
+
 buf-compare@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/buf-compare/-/buf-compare-1.0.1.tgz#fef28da8b8113a0a0db4430b0b6467b69730b34a"
@@ -710,6 +758,14 @@ buf-compare@^1.0.0:
 buffer-from@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.0.tgz#87fcaa3a298358e0ade6e442cfce840740d1ad04"
+
+buffer@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/buffer/-/buffer-5.2.1.tgz#dd57fa0f109ac59c602479044dca7b8b3d0b71d6"
+  integrity sha512-c+Ko0loDaFfuPWiL02ls9Xd3GO3cPVmUobQ6t3rXNUk304u6hGq+8N/kFi+QEIKhzK3uwolVhLzszmfLmMLnqg==
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
 
 builtin-modules@^1.0.0:
   version "1.1.1"
@@ -820,15 +876,7 @@ chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
-  dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
-
-chalk@^2.4.1:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1:
   version "2.4.1"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
   dependencies:
@@ -843,6 +891,11 @@ chardet@^0.4.0:
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
+
+charenc@~0.0.1:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
+  integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
 
 chokidar@^1.4.2:
   version "1.7.0"
@@ -935,6 +988,14 @@ cli-truncate@^1.0.0:
 cli-width@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
+
+clipboardy@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npmjs.org/clipboardy/-/clipboardy-1.2.3.tgz#0526361bf78724c1f20be248d428e365433c07ef"
+  integrity sha512-2WNImOvCRe6r63Gk9pShfkwXsVtKCroMAevIbiae021mS850UkWPbevxsBz3tnvjZIEGvlwaqCPsw+4ulzNgJA==
+  dependencies:
+    arch "^2.1.0"
+    execa "^0.8.0"
 
 cliui@^2.1.0:
   version "2.1.0"
@@ -1135,6 +1196,11 @@ cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
+crypt@~0.0.1:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/crypt/-/crypt-0.0.2.tgz#88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b"
+  integrity sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs=
+
 crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
@@ -1255,6 +1321,14 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
+des.js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/des.js/-/des.js-1.0.0.tgz#c074d2e2aa6a8a9a07dbd61f9a15c2cd83ec8ecc"
+  integrity sha1-wHTS4qpqipoH29YfmhXCzYPsjsw=
+  dependencies:
+    inherits "^2.0.1"
+    minimalistic-assert "^1.0.0"
+
 detect-indent@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-4.0.0.tgz#f76d064352cdf43a1cb6ce619c4ee3a9475de208"
@@ -1302,6 +1376,19 @@ duplexer3@^0.1.4:
 elegant-spinner@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/elegant-spinner/-/elegant-spinner-1.0.1.tgz#db043521c95d7e303fd8f345bedc3349cfb0729e"
+
+elliptic@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz#c2d0b7776911b86722c632c3c06c60f2f819939a"
+  integrity sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==
+  dependencies:
+    bn.js "^4.4.0"
+    brorand "^1.0.1"
+    hash.js "^1.0.0"
+    hmac-drbg "^1.0.0"
+    inherits "^2.0.1"
+    minimalistic-assert "^1.0.0"
+    minimalistic-crypto-utils "^1.0.0"
 
 empower-core@^0.6.1:
   version "0.6.2"
@@ -2049,6 +2136,23 @@ has@^1.0.1:
   dependencies:
     function-bind "^1.1.1"
 
+hash.js@^1.0.0, hash.js@^1.0.3, hash.js@^1.1.5:
+  version "1.1.7"
+  resolved "https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
+  integrity sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==
+  dependencies:
+    inherits "^2.0.3"
+    minimalistic-assert "^1.0.1"
+
+hmac-drbg@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
+  integrity sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
+  dependencies:
+    hash.js "^1.0.3"
+    minimalistic-assert "^1.0.0"
+    minimalistic-crypto-utils "^1.0.1"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -2098,6 +2202,11 @@ iconv-lite@^0.4.24:
   resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
+
+ieee754@^1.1.4:
+  version "1.1.12"
+  resolved "https://registry.npmjs.org/ieee754/-/ieee754-1.1.12.tgz#50bf24e5b9c8bb98af4964c941cdb0918da7b60b"
+  integrity sha512-GguP+DRY+pJ3soyIiGPTvdiVXjZ+DbXOxGpXn3eMvNW4x4irjqXm4wHKscC+TfxSJ0yw/S1F24tqdMNsMZTiLA==
 
 ignore-by-default@^1.0.0:
   version "1.0.1"
@@ -2230,7 +2339,7 @@ is-binary-path@^1.0.0:
   dependencies:
     binary-extensions "^1.0.0"
 
-is-buffer@^1.1.5:
+is-buffer@^1.1.5, is-buffer@~1.1.1:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
 
@@ -2563,6 +2672,90 @@ jest-validate@^21.1.0:
     jest-get-type "^21.2.0"
     leven "^2.1.0"
     pretty-format "^21.2.1"
+
+js-crypto-aes@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.npmjs.org/js-crypto-aes/-/js-crypto-aes-0.4.4.tgz#6467b8e46830a98aefc5b6466439b632bb37b3e9"
+  integrity sha512-1l57LTnR8sM2WYjrLvP/IPZCTtMaCYmdcOwTXzxhfQapi5RuYUvWc+6MX6NRVFAGW2dIaR9aHX8vv4SZn5o0yw==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/runtime" "^7.1.5"
+    js-crypto-env "^0.1.1"
+
+js-crypto-env@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/js-crypto-env/-/js-crypto-env-0.1.1.tgz#e4aedc42b78e859abefafa105110f6e055634a30"
+  integrity sha512-brjOVMBj19+5wXeucU98KZWsePH8TNLObl48C1uJn8SagSeRy7cU65qox7oEXRcatJf5+mO/rOsS6jUuUbXs+Q==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/runtime" "^7.1.5"
+
+js-crypto-hash@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.npmjs.org/js-crypto-hash/-/js-crypto-hash-0.3.3.tgz#83b5d1119afe8d35bb769feacff973c817497a87"
+  integrity sha512-VFssRaokdoeCoQXtpWJBOm2PTOp5oLL3piOLy6CzOEOxdWvwywhfvVkQwWNjATpLM70sAhGk/a0CwBEyeaqt7A==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/runtime" "^7.1.5"
+    hash.js "^1.1.5"
+    js-crypto-env "^0.1.1"
+    md5 "^2.2.1"
+
+js-crypto-hmac@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.npmjs.org/js-crypto-hmac/-/js-crypto-hmac-0.3.3.tgz#4ad7568c05b0465c05e7fbd257b83b65535e115f"
+  integrity sha512-ZmI9GAWsQ1AzH/RB9AOn82pgkoIh0TUeXtQ9KJfaU+oNptHteiYGdWol6Gwh1Vvz38yzu83LuZKiLomQ6QpP7Q==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/runtime" "^7.1.5"
+    js-crypto-env "^0.1.1"
+    js-crypto-hash "^0.3.3"
+
+js-crypto-key-utils@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.npmjs.org/js-crypto-key-utils/-/js-crypto-key-utils-0.5.6.tgz#e933d2cef4a1c1f4cffcebe12d787b14f87d4159"
+  integrity sha512-XvLxDBpk7KHPf1UHhdtWmzv6F8Wt7Yzqz5a+8z4dT+2IFk2PS0LhHC9ku8bb4hadwsEms5CBazK5R+0Kj8sFMQ==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "7.0.0"
+    "@babel/runtime" "^7.1.5"
+    asn1.js "^5.0.1"
+    buffer "^5.2.1"
+    des.js "^1.0.0"
+    elliptic "^6.4.1"
+    js-crypto-aes "^0.4.4"
+    js-crypto-hash "^0.3.3"
+    js-crypto-pbkdf "^0.2.2"
+    js-crypto-random "^0.2.6"
+    js-encoding-utils "^0.3.0"
+    lodash.clonedeep "^4.5.0"
+
+js-crypto-pbkdf@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/js-crypto-pbkdf/-/js-crypto-pbkdf-0.2.2.tgz#87e3f2f82bebd69583a0ff80bb40ddefa4adae87"
+  integrity sha512-ZrEgeKRsqaBbzoqa8ePJhFfepyibUF5OJiTBkD+YqvbeGB61oUscH6Z6f329G9Svq0w7Rsnio1j6xYtFQqzEtg==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/runtime" "^7.1.5"
+    js-crypto-hash "^0.3.3"
+    js-crypto-hmac "^0.3.3"
+    js-encoding-utils "^0.3.0"
+
+js-crypto-random@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.npmjs.org/js-crypto-random/-/js-crypto-random-0.2.6.tgz#3f2b72f832bd736dfd6ec0cb20fea8024f99ac2d"
+  integrity sha512-2dXOCsWuii/R3SjHy7wb7VKCkHRa8gs/1A1NxpzQvFC2KldTYheiXZ2GOXFac2HY6ZQycc+qxtj7k2uvYhPyUw==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/runtime" "^7.1.5"
+    js-crypto-env "^0.1.1"
+
+js-encoding-utils@^0.3.0, js-encoding-utils@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/js-encoding-utils/-/js-encoding-utils-0.3.1.tgz#130be9a6daa0fe76a78f762e6c1bcad2efff97ee"
+  integrity sha512-sqdCYCt5QqdpjHFYMJ0EQXUuznLs54gFtPJx62IHjo+l2gGLkE4Sw0Ki7hShW0bwqCMVIfrUHr8f9x9uKqvsyQ==
+  dependencies:
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/runtime" "^7.1.5"
 
 js-string-escape@^1.0.1:
   version "1.0.1"
@@ -2935,6 +3128,15 @@ md5-o-matic@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/md5-o-matic/-/md5-o-matic-0.1.1.tgz#822bccd65e117c514fab176b25945d54100a03c3"
 
+md5@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.npmjs.org/md5/-/md5-2.2.1.tgz#53ab38d5fe3c8891ba465329ea23fac0540126f9"
+  integrity sha1-U6s41f48iJG6RlMp6iP6wFQBJvk=
+  dependencies:
+    charenc "~0.0.1"
+    crypt "~0.0.1"
+    is-buffer "~1.1.1"
+
 mem@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
@@ -3019,6 +3221,16 @@ micromatch@^3.1.10, micromatch@^3.1.8:
 mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
+
+minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
+  integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
+
+minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
+  integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
 minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
@@ -3142,6 +3354,13 @@ node-pre-gyp@^0.10.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node-rsa@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/node-rsa/-/node-rsa-1.0.1.tgz#6f7c883c4f1163f0782e7abff3cbc9d499d6bb96"
+  integrity sha512-8iKs0HgkufO4Qb1iUJChh7Dg8HcSDVD37p3yu1tAhYa+/n2CwG9/d3qE+h6OHAIsfkXHEYYgbf4c7NfoMKayng==
+  dependencies:
+    asn1 "0.2.3"
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -3503,6 +3722,11 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
+pem-file@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/pem-file/-/pem-file-1.0.0.tgz#72737f6c3dd6f719fac4f619ef16c98626e6740f"
+  integrity sha512-yLGsG5QJ1tUOgElfBjCIGV/7f5Cf/hVSove4L5LtG5dtqFiwq1p+SnAlp1cIc2QAGrPrTjRcnOjjgmOqa1bW/Q==
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -3611,7 +3835,7 @@ pretty-ms@^2.0.0:
     parse-ms "^1.0.0"
     plur "^1.0.0"
 
-private@^0.1.8:
+private@^0.1.6, private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
@@ -3642,6 +3866,13 @@ randomatic@^3.0.0:
     is-number "^4.0.0"
     kind-of "^6.0.0"
     math-random "^1.0.1"
+
+randombytes@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/randombytes/-/randombytes-2.0.6.tgz#d302c522948588848a8d300c932b44c24231da80"
+  integrity sha512-CIQ5OFxf4Jou6uOKe9t1AOgqpeU5fd70A8NPdHSGeYXqXsPe6peOwI0cUl88RWZ6sP1vPMV3avd/R6cZ5/sP1A==
+  dependencies:
+    safe-buffer "^5.1.0"
 
 rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
   version "1.2.8"
@@ -3739,6 +3970,18 @@ regenerate@^1.2.1:
 regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+
+regenerator-runtime@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
+  integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+
+regenerator-transform@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.npmjs.org/regenerator-transform/-/regenerator-transform-0.13.3.tgz#264bd9ff38a8ce24b06e0636496b2c856b57bcbb"
+  integrity sha512-5ipTrZFSq5vU2YoGoww4uaRVAK4wyYC4TSICibbfEPOruUu8FFP7ErV0BjmbIOEpn3O/k9na9UEdYR/3m7N6uA==
+  dependencies:
+    private "^0.1.6"
 
 regex-cache@^0.4.2:
   version "0.4.4"
@@ -3925,7 +4168,7 @@ rxjs@^6.1.0:
   dependencies:
     tslib "^1.9.0"
 
-safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 

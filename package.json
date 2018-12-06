@@ -11,10 +11,17 @@
     "wangshijun <wangshijun2010@gmail.com>"
   ],
   "dependencies": {
+    "asn1.js": "^5.0.1",
     "chalk": "^2.4.1",
+    "clipboardy": "^1.2.3",
     "commander": "^2.19.0",
     "debug": "^4.1.0",
-    "inquirer": "^6.2.0"
+    "inquirer": "^6.2.0",
+    "js-crypto-key-utils": "^0.5.6",
+    "js-encoding-utils": "^0.3.1",
+    "node-rsa": "^1.0.1",
+    "pem-file": "^1.0.0",
+    "randombytes": "^2.0.6"
   },
   "ava": {
     "failFast": true,
